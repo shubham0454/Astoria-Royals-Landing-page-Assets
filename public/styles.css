@@ -101,6 +101,26 @@ body {
         gap: 1rem;
     }
 }
+.logo-img {
+  height: 70px;
+}
+
+.visit-btn {
+  font-size: 1rem;
+  padding: 0.5rem 1.2rem;
+}
+
+/* Responsive for mobile */
+@media (max-width: 576px) {
+  .logo-img {
+    height: 45px; /* Smaller logo on small devices */
+  }
+
+  .visit-btn {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.8rem; /* Smaller button */
+  }
+}
 
 .intro-section {
     background-color: #000;
