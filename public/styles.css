@@ -151,8 +151,11 @@ body {
     line-height: 1.7;
     color: #cccccc;
 }
-
+.img-top img{
+    margin-top: -220px;
+}
 @media (min-width: 768px) {
+
     .intro-title {
         font-size: 3.5rem;
     }
